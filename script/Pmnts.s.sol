@@ -10,7 +10,11 @@ contract PmntsDeploy is Script {
     function setUp() public {}
 
     function run() public {
+        uint256 deployerPK = vm.envUint("DEPLOYER_PK");
+        vm.startBroadcast(deployerPK);
         pmnt = new Pmnts();
         console2.log("new pmnts addr", address(pmnt));
+
+        vm.stopBroadcast();
     }
 }
