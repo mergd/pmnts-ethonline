@@ -1,4 +1,8 @@
+@openzeppelin/=lib/xERC20/lib/openzeppelin-contracts/
 ds-test/=lib/forge-std/lib/ds-test/src/
 forge-std/=lib/forge-std/src/
+isolmate/=lib/xERC20/lib/isolmate/src/
+permit2/=lib/xERC20/lib/permit2/
+prb/test/=lib/xERC20/lib/prb-test/src/
 solmate/=lib/solmate/src/
-@solmate/=lib/solmate/src/
+xERC20/=lib/xERC20/
