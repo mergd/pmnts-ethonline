@@ -4,3 +4,6 @@
 [submodule "lib/solmate"]
 	path = lib/solmate
 	url = https://github.com/transmissions11/solmate
+[submodule "lib/xERC20"]
+	path = lib/xERC20
+	url = https://github.com/connext/xERC20
